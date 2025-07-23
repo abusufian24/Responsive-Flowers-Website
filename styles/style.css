@@ -128,3 +128,34 @@ body {
   line-height: 27px;
   margin: 20px 60px 0px;
 }
+
+#hero-section {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url("/assets/news-letter-bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.subscribe-form input {
+  width: 644px;
+  height: 50px;
+  padding: 8px 20px;
+  border: none;
+}
+.subscribe-form button {
+  border: none;
+  padding: 24px 35px;
+  font-size: 16px;
+  margin-left: -5px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(233, 90, 8);
+}
