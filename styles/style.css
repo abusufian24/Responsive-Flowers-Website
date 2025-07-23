@@ -1,0 +1,130 @@
+body {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* shared Style*/
+.display-flex {
+  display: flex;
+}
+.color {
+  color: rgb(233, 90, 8);
+}
+
+/* nav related style*/
+
+.left-nav img {
+  width: 135px;
+  height: 82px;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.list-item {
+  list-style: none;
+  gap: 10px;
+}
+.list-item a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.icon-item {
+  align-items: center;
+  margin-left: 10px;
+}
+#Home {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+}
+/* banner related style*/
+.banner {
+  max-height: 460px;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+.banner-right img {
+  max-width: 570px;
+  max-height: 355px;
+}
+.banner-left h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-left p {
+  font-size: 1.37rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* out plants related style*/
+
+.Article-part {
+  text-align: center;
+}
+.Article-part h2 {
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+.Article-part p {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.card {
+  width: 270px;
+  height: 484.94px;
+
+  text-align: center;
+}
+.card h4 {
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+.card h3 {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+.card button {
+  width: 270px;
+  height: 50px;
+  padding: 26px 50px 26px 50px;
+  background-color: rgb(233, 90, 8);
+  border: none;
+}
+
+.card-side {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 50px;
+  margin-top: 50px;
+}
+
+/*flower plants related style*/
+.flower-plants {
+  margin-top: 200px;
+}
+.flower-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.flower-right h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+  margin: 0px;
+  padding: 0px;
+}
+.flower-right li {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 20px 60px 0px;
+}
