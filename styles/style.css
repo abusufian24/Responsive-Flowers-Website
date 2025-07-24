@@ -1,5 +1,13 @@
-body {
+header {
   max-width: 1140px;
+  margin: 0 auto;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+footer {
+  max-width: 1440px;
   margin: 0 auto;
 }
 /* shared Style*/
@@ -129,17 +137,18 @@ body {
   margin: 20px 60px 0px;
 }
 
-#hero-section {
-  position: relative;
-  width: 100%;
+#subscribe-section {
+  width: 1440px;
   height: 500px;
+  margin: 0 auto;
   background-image: url("/assets/news-letter-bg.png");
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 50px;
 }
-.hero-content h1 {
+.subscribe-content h1 {
   font-size: 50px;
   font-weight: 700;
   color: white;
@@ -158,4 +167,52 @@ body {
   font-weight: 600;
   color: white;
   background-color: rgb(233, 90, 8);
+}
+
+/* footer related style*/
+.footer-content {
+  justify-content: space-around;
+  margin-top: 50px;
+  background-color: azure;
+}
+.logo-part {
+  width: 350px;
+  height: 178px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 0px;
+}
+
+.logo-part img {
+  width: 135px;
+  height: 82px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.logo-part p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.ul-item {
+  height: 100%;
+}
+.ul-item ul {
+  list-style: none;
+}
+.ul-item a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+}
+.ul-item li {
+  margin-bottom: 30px;
+}
+
+.social-logo img {
+  margin-right: 24px;
 }
